@@ -18,7 +18,7 @@ public class IPagination<T> {
     private long total;
     /** 忽略数据条数 **/
     private int offset;
-    /** 数据列表 **/
+    /** 列表数据 **/
     private List<T> list = new ArrayList<>();
 
     public IPagination() {
